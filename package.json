@@ -1,7 +1,7 @@
 {
   "name": "@formatika/mcp",
-  "version": "0.1.1",
-  "mcpName": "io.github.formatika-app/mcp",
+  "version": "0.1.2",
+  "mcpName": "app.formatika/mcp",
   "description": "MCP server for formatika.app — convert, resize and compress files from your agent",
   "keywords": [
     "mcp",
