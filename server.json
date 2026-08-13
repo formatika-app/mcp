@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.formatika-app/mcp",
+  "description": "Convert, compress, resize and trim images, audio, video and PDFs. Files are read from local paths and results are written back to disk.",
+  "repository": {
+    "url": "https://github.com/formatika-app/mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@formatika/mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "FORMATIKA_API_KEY",
+          "description": "Access key from your formatika.app account. Without it the free daily allowance applies, which is enough for occasional work.",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "FORMATIKA_URL",
+          "description": "Base URL of the service. Only needed when pointing the server at a self-hosted instance.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name": "@formatika/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.formatika-app/mcp",
   "description": "MCP server for formatika.app — convert, resize and compress files from your agent",
   "keywords": [
     "mcp",
@@ -13,8 +14,7 @@
   "homepage": "https://formatika.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timewave-cloud/formatika.git",
-    "directory": "packages/mcp"
+    "url": "git+https://github.com/formatika-app/mcp.git"
   },
   "license": "MIT",
   "type": "module",
@@ -23,7 +23,8 @@
   },
   "files": [
     "dist/index.js",
-    "README.md"
+    "README.md",
+    "server.json"
   ],
   "engines": {
     "node": ">=20"
